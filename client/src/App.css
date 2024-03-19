@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", Helvetica, sans-serif;
+}
+
+body a {
+  /* color: rgb(51, 49, 49) */
+  color: #331005;
+
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+
+}
+
+.side-container {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  width: 250px;
+  background-color: #eee1d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.main-container {
+  padding-top: 3rem;
+  width: 60%;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.sidebar {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* .main {
+  padding: 0 2rem;
+} */
+
+.content {
+  flex: 1 1 0%;
+  overflow-y: auto
+}
+
+.feat-bg {
+  padding: 0 1.5rem;
+  /* background-color: #EEE1D2; */
+}
+
+.feat-container {
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.feat-text {
+  width: 80%;
+  background-color: #EEE1D2;
+  padding: 2rem;
+}
+
+.feat-container img {
+  width: 150%;
+}
+
+.card {
+  flex: 0 0 18rem;
+  /* Set a base width */
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  text-decoration: none;
+  margin-bottom: 2rem;
+
+}
+
+
+.card-text {
+  background-color: #EEE1D2;
+  padding: 1rem 1rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+
+}
+
+/* Admin page css */
+.admin-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.row {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.editor {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  border-left: 1px solid black;
+}
+
+.editor-input {
+  height: 100%;
+  width: 100%;
+}
