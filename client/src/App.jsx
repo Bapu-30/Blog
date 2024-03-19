@@ -1,21 +1,20 @@
+import DemoFeatured from "./components/DemoFeatured"
 import Featured from "./components/Featured"
+import FeaturedSection from "./components/FeaturedSection"
 import Main from "./components/Main"
-import Sidebar from "./components/Sidebar"
-import './App.css'
-import NewPost from "./components/NewPost"
+import Navbar from "./components/Navbar"
+// import './App.css'
+// import NewPost from "./components/NewPost"
 
 const App = () => {
   return (
-    // <div className="container">
-    //   <Sidebar />
-    //   <div className="content">
-    //     <div className="feat-bg">
-    //       <Featured />
-    //     </div>
-    //     <Main />
-    //   </div>
-    // </div>
-    <NewPost />
+    <div>
+      <Navbar />
+      <main className="md:max-w-[90%] md:mt-2 m-auto">
+        <DemoFeatured />
+      </main>
+
+    </div>
   )
 }
 export default App
